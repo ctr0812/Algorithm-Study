@@ -12,6 +12,7 @@ public class Stream {
         // stream int 배열 변환
         intList.stream().mapToInt(Integer::intValue).toArray();
 
+
         // stream string 배열 변환
         stringList.stream().toArray(String[]::new);
     }
