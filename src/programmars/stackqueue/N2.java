@@ -1,4 +1,4 @@
-package stackqueue;
+package programmars.stackqueue;
 
 
 

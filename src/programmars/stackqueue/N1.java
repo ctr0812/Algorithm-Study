@@ -1,4 +1,4 @@
-package stackqueue;
+package programmars.stackqueue;
 
 import java.util.ArrayList;
 import java.util.Arrays;

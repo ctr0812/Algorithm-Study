@@ -1,4 +1,4 @@
-package exhaustive;
+package programmars.exhaustive;
 
 
 import java.util.Arrays;

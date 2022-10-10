@@ -1,10 +1,9 @@
-package exhaustive;
-
+package programmars.exhaustive;
 
 
 import java.util.Arrays;
 
-class N4 {
+class Solution {
     public int[] solution(int brown, int yellow) {
         int[] answer = new int[2];
         int sum = brown + yellow;
@@ -12,7 +11,6 @@ class N4 {
 
         for (int i = 1; i <= sum/3; i++) {
             for(int j = 1; j <= sum / i; j++){
-//            for(int j = 1; j <= sum / 3; j++){   시간초과 코드
                 if(i * j == sum && 2*i + 2*j - 4 == brown) {
                     a = Math.max(i, j);
                     b = Math.min(i, j);

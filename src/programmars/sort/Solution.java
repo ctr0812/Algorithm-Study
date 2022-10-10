@@ -1,9 +1,10 @@
-package sort;
+package programmars.sort;
+
 
 import java.util.Arrays;
 import java.util.Collections;
 
-class N3 {
+class Solution {
     public int solution(int[] citations) {
         int answer = 0;
         Integer[] nums = Arrays.stream(citations).boxed().toArray(Integer[]::new);

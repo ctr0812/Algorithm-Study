@@ -1,4 +1,4 @@
-package map;
+package programmars.map;
 
 
 import java.util.Arrays;
