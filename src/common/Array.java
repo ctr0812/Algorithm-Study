@@ -1,5 +1,6 @@
 package common;
 
+
 import java.util.Arrays;
 import java.util.Collections;
 
@@ -8,6 +9,10 @@ public class Array {
         int[] intArr = {1, 2, 3, 4, 5, 6};
         Integer[] integerArr = {1, 2, 3, 4};
         String[] stringArr = {"a", "b", "c"};
+        String s = "abcd";
+
+        // String[] 배열로 자르기
+        String[] sArray =  s.split(" ");
 
         // 배열 자르기 , 마지막 to 포함 X
         int[] copy = Arrays.copyOfRange(intArr,1, 4);
